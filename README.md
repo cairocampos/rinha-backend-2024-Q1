@@ -1,15 +1,24 @@
-# Elysia with Bun runtime
+# Rinha de Backend 2024 Q1
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
+Esta é uma aplicação construída utilizando o [Bun](https://bun.sh/) juntamente com o framework [ElysiaJS](https://elysiajs.com/), utiliza o banco de dados Postgres e Nginx como balanceador de carga.
+
+Essa aplicação foi criada com base nos critérios para participação do [Rinha de Backend 2024 Q1](https://github.com/zanfranceschi/rinha-de-backend-2024-q1/tree/main) de Backend 2024 Q1 com o tema de **controle de concorrência**.
+
+## Tecnologias
+- [Bun - Linguagem](https://bun.sh/)
+- [ElysiaJS - Framework](https://elysiajs.com/)
+- [Postgres - Banco de dados](https://www.postgresql.org/)
+- [Nginx - Load balancer](https://www.nginx.com/)
+
+# Requisitos
+- Docker
+
+## Subindo a aplicação
+
+Execute o seguinte comando docker abaixo para subir a aplicação
 ```bash
-bun create elysia ./elysia-example
+docker compose up
 ```
 
-## Development
-To start the development server run:
-```bash
-bun run dev
-```
-
-Open http://localhost:3000/ with your browser to see the result.
+## Contato
+[Linkedin](https://br.linkedin.com/in/cairo-campos-a369b2174)
